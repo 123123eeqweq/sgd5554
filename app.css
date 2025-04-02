@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gunjala+Gondi:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    font-family: "Noto Sans Gunjala Gondi", sans-serif;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-icon {
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.wallets-list {
+    background-color: #333333;
+    border-radius: 15px;
+    padding: 15px;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.wallets-list p {
+    font-size: 14px;
+    color: #B0B0B0;
+    word-break: break-all;
+    margin-bottom: 10px;
+}
+
+.wallets-list p:last-child {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #B0B0B0;
+    margin-bottom: 30px;
+}
+
+.controls {
+    display: flex;
+    gap: 20px;
+}
+
+.start-btn,
+.stop-btn {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 150px;
+}
+
+.start-btn:hover,
+.stop-btn:hover {
+    background-color: #E0E0E0;
+}
